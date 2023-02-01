@@ -1,0 +1,925 @@
+2023-02-01 13:59:44.350  INFO 528 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 528 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 13:59:44.351  INFO 528 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 13:59:45.450  INFO 528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 13:59:45.451  INFO 528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 13:59:45.521  INFO 528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 13:59:45.709  INFO 528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 13:59:45.756  INFO 528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 13:59:45.896  INFO 528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 13:59:45.985  INFO 528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 13:59:46.207  INFO 528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 13:59:46.220  INFO 528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 13:59:46.382  INFO 528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 13:59:46.427  WARN 528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 13:59:46.793  INFO 528 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.759 seconds (JVM running for 3.157)
+2023-02-01 14:01:51.375  INFO 4664 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 4664 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:01:51.376  INFO 4664 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:01:52.481  INFO 4664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:01:52.481  INFO 4664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:01:52.548  INFO 4664 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:01:52.728  INFO 4664 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:01:52.774  INFO 4664 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:01:52.892  INFO 4664 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:01:52.970  INFO 4664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:01:53.226  INFO 4664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:01:53.242  INFO 4664 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:01:53.408  INFO 4664 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:01:53.469  WARN 4664 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:01:53.820  INFO 4664 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.764 seconds (JVM running for 3.195)
+2023-02-01 14:04:21.190  INFO 4664 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 14:05:13.129  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 15460 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:05:13.130  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:05:14.181  INFO 15460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:05:14.181  INFO 15460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:05:14.239  INFO 15460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:05:14.410  INFO 15460 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:05:14.445  INFO 15460 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:05:14.560  INFO 15460 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:05:14.632  INFO 15460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:05:15.011  INFO 15460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:05:15.026  INFO 15460 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:05:15.175  INFO 15460 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:05:15.229  WARN 15460 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:05:15.561  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.746 seconds (JVM running for 3.187)
+2023-02-01 14:05:39.026  INFO 15460 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 14:07:45.949  INFO 15460 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:07:45.952  INFO 15460 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-01 14:07:45.963  INFO 15460 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:07:45.986  INFO 15460 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:07:46.121  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 15460 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:07:46.121  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:07:46.465  INFO 15460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:07:46.466  INFO 15460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:07:46.490  INFO 15460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:07:46.531  INFO 15460 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:07:46.539  INFO 15460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:07:46.711  INFO 15460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:07:46.712  INFO 15460 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:07:46.718  INFO 15460 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:07:46.745  WARN 15460 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:07:46.874  INFO 15460 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.829 seconds (JVM running for 154.502)
+2023-02-01 14:07:58.069  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 12296 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:07:58.071  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:07:59.092  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:07:59.092  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:07:59.145  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:07:59.309  INFO 12296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:07:59.347  INFO 12296 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:07:59.467  INFO 12296 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:07:59.545  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:07:59.796  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:07:59.811  INFO 12296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:07:59.962  INFO 12296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:08:00.018  WARN 12296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:08:00.370  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.617 seconds (JVM running for 3.032)
+2023-02-01 14:08:20.103  INFO 12296 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:08:20.111  INFO 12296 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:08:20.118  INFO 12296 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:08:20.179  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 12296 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:08:20.180  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:08:20.405  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:08:20.406  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:08:20.425  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:08:20.462  INFO 12296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:08:20.467  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:08:20.693  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:08:20.693  INFO 12296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:08:20.698  INFO 12296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:08:20.708  WARN 12296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:08:20.792  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.636 seconds (JVM running for 23.454)
+2023-02-01 14:11:58.775  INFO 12296 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:11:58.780  INFO 12296 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 14:11:58.786  INFO 12296 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 14:11:58.857  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 12296 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:11:58.858  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:11:59.035  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:11:59.035  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:11:59.048  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:11:59.075  INFO 12296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:11:59.080  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 14:11:59.198  INFO 12296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 14:11:59.199  INFO 12296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:11:59.205  INFO 12296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:11:59.221  WARN 12296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:11:59.301  INFO 12296 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.465 seconds (JVM running for 241.966)
+2023-02-01 14:12:27.462  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 800 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:12:27.463  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:12:28.685  INFO 800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:12:28.686  INFO 800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:12:28.753  INFO 800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:12:28.959  INFO 800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:12:28.996  INFO 800 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:12:29.112  INFO 800 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:12:29.190  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:12:29.452  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:12:29.469  INFO 800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:12:29.650  INFO 800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:12:29.711  WARN 800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:12:30.079  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.197 seconds (JVM running for 3.936)
+2023-02-01 14:17:14.187  INFO 800 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:17:14.195  INFO 800 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:17:14.198  INFO 800 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:17:14.266  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 800 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:17:14.267  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:17:14.643  INFO 800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:17:14.644  INFO 800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:17:14.664  INFO 800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:17:14.699  INFO 800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:17:14.704  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:17:14.822  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:17:14.823  INFO 800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:17:14.828  INFO 800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:17:14.843  WARN 800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:17:14.923  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.692 seconds (JVM running for 288.781)
+2023-02-01 14:17:35.779  INFO 800 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:17:35.783  INFO 800 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 14:17:35.786  INFO 800 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 14:17:35.862  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 800 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:17:35.863  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:17:36.065  INFO 800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:17:36.066  INFO 800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:17:36.080  INFO 800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:17:36.109  INFO 800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:17:36.113  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 14:17:36.351  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 14:17:36.352  INFO 800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:17:36.356  INFO 800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:17:36.369  WARN 800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:17:36.436  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.603 seconds (JVM running for 310.294)
+2023-02-01 14:19:28.121  INFO 800 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:19:28.124  INFO 800 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-01 14:19:28.136  INFO 800 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-01 14:19:28.206  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 800 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:19:28.208  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:19:28.556  INFO 800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:19:28.557  INFO 800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:19:28.586  INFO 800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:19:28.684  INFO 800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:19:28.689  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-01 14:19:28.828  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-01 14:19:28.828  INFO 800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:19:28.835  INFO 800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:19:28.847  WARN 800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:19:28.920  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.744 seconds (JVM running for 422.777)
+2023-02-01 14:20:07.070  INFO 800 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:20:07.080  INFO 800 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-02-01 14:20:07.089  INFO 800 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-02-01 14:20:07.196  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 800 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:20:07.197  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:20:07.415  INFO 800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:20:07.416  INFO 800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:20:07.435  INFO 800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:20:07.464  INFO 800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:20:07.466  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-02-01 14:20:07.604  INFO 800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-02-01 14:20:07.604  INFO 800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:20:07.610  INFO 800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:20:07.625  WARN 800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:20:07.683  INFO 800 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.516 seconds (JVM running for 461.54)
+2023-02-01 14:20:13.700  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 2352 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:20:13.701  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:20:14.789  INFO 2352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:20:14.790  INFO 2352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:20:14.849  INFO 2352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:20:15.024  INFO 2352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:20:15.063  INFO 2352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:20:15.184  INFO 2352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:20:15.257  INFO 2352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:20:15.483  INFO 2352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:20:15.500  INFO 2352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:20:15.657  INFO 2352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:20:15.711  WARN 2352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:20:16.054  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.687 seconds (JVM running for 3.116)
+2023-02-01 14:20:30.649  INFO 2352 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 14:21:49.351  INFO 2352 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:21:49.356  INFO 2352 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-01 14:21:49.374  INFO 2352 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:21:49.396  INFO 2352 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:21:49.543  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 2352 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:21:49.547  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:21:50.199  INFO 2352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:21:50.206  INFO 2352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:21:50.317  INFO 2352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:21:50.726  INFO 2352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:21:50.731  INFO 2352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:21:50.903  INFO 2352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:21:50.904  INFO 2352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:21:50.911  INFO 2352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:21:50.929  WARN 2352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:21:51.054  INFO 2352 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 1.575 seconds (JVM running for 98.117)
+2023-02-01 14:21:58.098  INFO 17948 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 17948 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:21:58.099  INFO 17948 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:21:59.199  INFO 17948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:21:59.200  INFO 17948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:21:59.258  INFO 17948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:21:59.434  INFO 17948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:21:59.473  INFO 17948 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:21:59.596  INFO 17948 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:21:59.675  INFO 17948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:21:59.958  INFO 17948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:21:59.972  INFO 17948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:22:00.121  INFO 17948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:22:00.174  WARN 17948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:22:00.496  WARN 17948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 14:22:00.512  WARN 17948 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 14:22:00.519  INFO 17948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:22:00.704  INFO 17948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:22:00.706  INFO 17948 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:22:00.729 ERROR 17948 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 14:22:39.557  INFO 2352 --- [http-nio-2006-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 14:23:15.260  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:23:15.261  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:23:16.286  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:23:16.286  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:23:16.344  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:23:16.510  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:23:16.554  INFO 11328 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:23:16.666  INFO 11328 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:23:16.736  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:23:16.989  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:23:17.006  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:23:17.153  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:23:17.207  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:23:17.585  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.625 seconds (JVM running for 3.048)
+2023-02-01 14:28:26.160  INFO 11328 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:28:26.168  INFO 11328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:28:26.171  INFO 11328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:28:26.221  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:28:26.221  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:28:26.407  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:28:26.407  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:28:26.420  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:28:26.447  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:28:26.450  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:28:26.608  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:28:26.608  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:28:26.612  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:28:26.626  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:28:26.713  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.514 seconds (JVM running for 312.183)
+2023-02-01 14:30:31.623  INFO 11328 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:30:31.628  INFO 11328 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 14:30:31.634  INFO 11328 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 14:30:31.693  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:30:31.693  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:30:31.964  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:30:31.964  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:30:31.986  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:30:32.019  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:30:32.024  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 14:30:32.154  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 14:30:32.155  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:30:32.162  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:30:32.175  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:30:32.264  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.593 seconds (JVM running for 437.735)
+2023-02-01 14:31:03.309  INFO 11328 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:31:03.312  INFO 11328 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-01 14:31:03.313  INFO 11328 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-01 14:31:03.369  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:31:03.370  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:31:03.628  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:31:03.629  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:31:03.657  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:31:03.692  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:31:03.697  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-01 14:31:03.874  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-01 14:31:03.875  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:31:03.882  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:31:03.902  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:31:03.998  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.65 seconds (JVM running for 469.469)
+2023-02-01 14:31:36.069  INFO 11328 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:31:36.073  INFO 11328 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-02-01 14:31:36.086  INFO 11328 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-02-01 14:31:36.154  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:31:36.155  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:31:36.370  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:31:36.371  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:31:36.394  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:31:36.433  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:31:36.438  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-02-01 14:31:36.592  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-02-01 14:31:36.593  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:31:36.597  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:31:36.611  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:31:36.672  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.543 seconds (JVM running for 502.143)
+2023-02-01 14:36:07.810  INFO 11328 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:36:07.813  INFO 11328 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-02-01 14:36:07.818  INFO 11328 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-02-01 14:36:07.873  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11328 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:36:07.873  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:36:08.064  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:36:08.064  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:36:08.083  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:36:08.104  INFO 11328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:36:08.107  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-02-01 14:36:08.255  INFO 11328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-02-01 14:36:08.256  INFO 11328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:36:08.259  INFO 11328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:36:08.269  WARN 11328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:36:08.335  INFO 11328 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.479 seconds (JVM running for 773.805)
+2023-02-01 14:36:36.172  INFO 944 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 944 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:36:36.173  INFO 944 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:36:37.210  INFO 944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:36:37.211  INFO 944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:36:37.269  INFO 944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:36:37.440  INFO 944 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:36:37.483  INFO 944 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:36:37.618  INFO 944 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:36:37.696  INFO 944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:36:37.944  INFO 944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:36:37.956  INFO 944 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:36:38.108  INFO 944 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:36:38.162  WARN 944 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:36:38.478  WARN 944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 14:36:38.502  WARN 944 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 14:36:38.513  INFO 944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:36:38.605  INFO 944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:36:38.607  INFO 944 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:36:38.631 ERROR 944 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 14:36:59.160  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 16452 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:36:59.161  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:37:00.191  INFO 16452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:37:00.191  INFO 16452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:37:00.248  INFO 16452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:37:00.425  INFO 16452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:37:00.464  INFO 16452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:37:00.588  INFO 16452 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:37:00.664  INFO 16452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:37:00.907  INFO 16452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:37:00.920  INFO 16452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:37:01.084  INFO 16452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:37:01.147  WARN 16452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:37:01.544  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.686 seconds (JVM running for 3.088)
+2023-02-01 14:38:53.102  INFO 16452 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:38:53.118  INFO 16452 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:38:53.134  INFO 16452 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:38:53.177  INFO 14228 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 14228 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:38:53.178  INFO 14228 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:38:53.227  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 16452 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:38:53.227  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:38:53.811  INFO 16452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:38:53.811  INFO 16452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:38:53.836  INFO 16452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:38:53.891  INFO 16452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:38:53.897  INFO 16452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:38:54.080  INFO 16452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:38:54.081  INFO 16452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:38:54.089  INFO 16452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:38:54.115  WARN 16452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:38:54.278  INFO 16452 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 1.101 seconds (JVM running for 115.823)
+2023-02-01 14:38:55.106  INFO 14228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:38:55.107  INFO 14228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:38:55.169  INFO 14228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:38:55.345  INFO 14228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:38:55.388  INFO 14228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:38:55.521  INFO 14228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:38:55.599  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:38:55.895  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:38:55.909  INFO 14228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:38:56.065  INFO 14228 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:38:56.117  WARN 14228 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:38:56.430  WARN 14228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 14:38:56.450  WARN 14228 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 14:38:56.457  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:38:56.520  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:38:56.521  INFO 14228 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:38:56.550 ERROR 14228 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 14:39:15.971  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11040 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:39:15.973  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:39:17.014  INFO 11040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:39:17.015  INFO 11040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:39:17.070  INFO 11040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:39:17.239  INFO 11040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:39:17.279  INFO 11040 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:39:17.393  INFO 11040 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:39:17.463  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:39:17.699  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:39:17.712  INFO 11040 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:39:17.855  INFO 11040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:39:17.907  WARN 11040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:39:18.251  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.58 seconds (JVM running for 3.039)
+2023-02-01 14:40:51.181  INFO 11040 --- [http-nio-2006-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 14:54:46.936  INFO 11040 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:54:46.937  INFO 11040 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-01 14:54:46.947  INFO 11040 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:54:46.957  INFO 11040 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:54:47.013  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11040 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:54:47.013  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:54:47.244  INFO 11040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:54:47.245  INFO 11040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:54:47.262  INFO 11040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:54:47.287  INFO 11040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:54:47.290  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 14:54:47.465  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 14:54:47.466  INFO 11040 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:54:47.472  INFO 11040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:54:47.491  WARN 11040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:54:47.652  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.665 seconds (JVM running for 932.444)
+2023-02-01 14:55:27.924  INFO 11040 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:55:27.928  INFO 11040 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 14:55:27.935  INFO 11040 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 14:55:27.997  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11040 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:55:27.997  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:55:28.170  INFO 11040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:55:28.170  INFO 11040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:55:28.184  INFO 11040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:55:28.214  INFO 11040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:55:28.218  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 14:55:28.341  INFO 11040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 14:55:28.342  INFO 11040 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:55:28.346  INFO 11040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:55:28.365  WARN 11040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:55:28.455  INFO 11040 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.48 seconds (JVM running for 973.247)
+2023-02-01 14:55:34.984  INFO 3564 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 3564 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:55:34.985  INFO 3564 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:55:36.068  INFO 3564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:55:36.069  INFO 3564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:55:36.127  INFO 3564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:55:36.303  INFO 3564 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:55:36.340  INFO 3564 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:55:36.458  INFO 3564 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:55:36.536  INFO 3564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:55:36.926  INFO 3564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:55:36.943  INFO 3564 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:55:37.094  INFO 3564 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:55:37.149  WARN 3564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:55:37.445  WARN 3564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 14:55:37.464  WARN 3564 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 14:55:37.469  INFO 3564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 14:55:37.614  INFO 3564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 14:55:37.616  INFO 3564 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 14:55:37.640 ERROR 3564 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 14:55:55.361  INFO 19684 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 19684 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 14:55:55.362  INFO 19684 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 14:55:56.424  INFO 19684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 14:55:56.424  INFO 19684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 14:55:56.486  INFO 19684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 14:55:56.656  INFO 19684 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 14:55:56.692  INFO 19684 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 14:55:56.801  INFO 19684 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 14:55:56.871  INFO 19684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 14:55:57.114  INFO 19684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 14:55:57.127  INFO 19684 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 14:55:57.275  INFO 19684 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 14:55:57.335  WARN 19684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 14:55:57.694  INFO 19684 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 2.643 seconds (JVM running for 3.055)
+2023-02-01 15:02:59.764  INFO 15440 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 15440 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:02:59.765  INFO 15440 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:03:01.081  INFO 15440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:03:01.082  INFO 15440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:03:01.160  INFO 15440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:03:01.488  INFO 15440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:03:01.619  INFO 15440 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:03:01.815  INFO 15440 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:03:01.915  INFO 15440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:03:02.327  INFO 15440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:03:02.342  INFO 15440 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:03:02.497  INFO 15440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:03:02.559  WARN 15440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:03:02.930  WARN 15440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 15:03:02.950  WARN 15440 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 15:03:02.956  INFO 15440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 15:03:03.112  INFO 15440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 15:03:03.114  INFO 15440 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:03:03.143 ERROR 15440 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 15:03:20.730  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 9184 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:03:20.731  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:03:21.984  INFO 9184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:03:21.985  INFO 9184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:03:22.059  INFO 9184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:03:22.290  INFO 9184 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:03:22.341  INFO 9184 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:03:22.475  INFO 9184 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:03:22.565  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:03:22.873  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:03:22.891  INFO 9184 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:03:23.066  INFO 9184 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:03:23.128  WARN 9184 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:03:23.548  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.219 seconds (JVM running for 3.721)
+2023-02-01 15:09:51.297  INFO 9184 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:09:51.310  INFO 9184 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 15:09:51.333  INFO 9184 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 15:09:51.442  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 9184 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:09:51.442  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:09:51.976  INFO 9184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:09:51.977  INFO 9184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:09:52.002  INFO 9184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:09:52.432  INFO 9184 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:09:52.439  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 15:09:52.763  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 15:09:52.764  INFO 9184 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:09:52.771  INFO 9184 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:09:52.799  WARN 9184 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:09:52.966  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 1.568 seconds (JVM running for 393.14)
+2023-02-01 15:10:42.471  INFO 9184 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:10:42.478  INFO 9184 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 15:10:42.493  INFO 9184 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 15:10:42.618  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 9184 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:10:42.620  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:10:42.911  INFO 9184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:10:42.911  INFO 9184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:10:42.938  INFO 9184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:10:42.978  INFO 9184 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:10:42.983  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 15:10:43.147  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 15:10:43.147  INFO 9184 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:10:43.153  INFO 9184 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:10:43.177  WARN 9184 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:10:43.315  INFO 9184 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.763 seconds (JVM running for 443.49)
+2023-02-01 15:24:47.102  INFO 1876 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 1876 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:24:47.104  INFO 1876 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:24:48.352  INFO 1876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:24:48.353  INFO 1876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:24:48.425  INFO 1876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:24:48.692  INFO 1876 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:24:48.756  INFO 1876 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:24:48.913  INFO 1876 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:24:49.024  INFO 1876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:24:49.489  INFO 1876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:24:49.505  INFO 1876 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:24:49.695  INFO 1876 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:24:49.760  WARN 1876 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:30:47.559  INFO 2720 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 2720 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:30:47.561  INFO 2720 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:30:48.802  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:30:48.803  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:30:48.875  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:30:49.075  INFO 2720 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:30:49.122  INFO 2720 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:30:49.249  INFO 2720 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:30:49.333  INFO 2720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:30:49.657  INFO 2720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:30:49.675  INFO 2720 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:30:49.891  INFO 2720 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:30:49.952  WARN 2720 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:30:50.385  INFO 2720 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.241 seconds (JVM running for 3.783)
+2023-02-01 15:31:03.385  INFO 17416 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 17416 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:31:03.386  INFO 17416 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:31:04.824  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:31:04.825  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:31:04.915  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:31:05.205  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:31:05.248  INFO 17416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:31:05.378  INFO 17416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:31:05.456  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:31:05.794  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:31:05.811  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:31:06.024  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:31:06.108  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:31:06.626  WARN 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 15:31:06.652  WARN 17416 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 15:31:06.664  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 15:31:06.741  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 15:31:06.744  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:31:06.774 ERROR 17416 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 15:31:48.606  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 16500 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:31:48.607  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:31:49.844  INFO 16500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:31:49.845  INFO 16500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:31:49.919  INFO 16500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:31:50.161  INFO 16500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:31:50.200  INFO 16500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:31:50.340  INFO 16500 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:31:50.442  INFO 16500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:31:50.760  INFO 16500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:31:50.779  INFO 16500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:31:50.978  INFO 16500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:31:51.055  WARN 16500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:31:51.465  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.268 seconds (JVM running for 3.867)
+2023-02-01 15:36:56.323  INFO 16500 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:36:56.335  INFO 16500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 15:36:56.346  INFO 16500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 15:36:56.435  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 16500 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:36:56.436  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:36:56.726  INFO 16500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:36:56.727  INFO 16500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:36:56.749  INFO 16500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:36:56.786  INFO 16500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:36:56.790  INFO 16500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 15:36:56.945  INFO 16500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 15:36:56.946  INFO 16500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:36:56.955  INFO 16500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:36:56.976  WARN 16500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:36:57.065  INFO 16500 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.668 seconds (JVM running for 309.471)
+2023-02-01 15:37:00.444  INFO 13268 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 13268 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:37:00.446  INFO 13268 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:37:01.796  INFO 13268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:37:01.796  INFO 13268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:37:01.869  INFO 13268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:37:02.091  INFO 13268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:37:02.137  INFO 13268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:37:02.277  INFO 13268 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:37:02.374  INFO 13268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:37:02.705  INFO 13268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:37:02.726  INFO 13268 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:37:02.905  INFO 13268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:37:02.977  WARN 13268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:37:03.339  WARN 13268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 15:37:03.363  WARN 13268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 15:37:03.378  INFO 13268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 15:37:03.411  INFO 13268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 15:37:03.414  INFO 13268 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 15:37:03.447 ERROR 13268 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 15:37:11.898  INFO 11804 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11804 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 15:37:11.899  INFO 11804 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 15:37:13.161  INFO 11804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 15:37:13.162  INFO 11804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 15:37:13.240  INFO 11804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 15:37:13.482  INFO 11804 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 15:37:13.543  INFO 11804 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 15:37:13.699  INFO 11804 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 15:37:13.790  INFO 11804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 15:37:14.109  INFO 11804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 15:37:14.125  INFO 11804 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 15:37:14.308  INFO 11804 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 15:37:14.370  WARN 11804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 15:37:14.990  INFO 11804 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.49 seconds (JVM running for 3.994)
+2023-02-01 15:55:00.135  INFO 11804 --- [http-nio-2006-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 17:26:34.049  INFO 15516 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 15516 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:26:34.051  INFO 15516 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:27:11.156  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 4964 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:27:11.158  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:27:12.377  INFO 4964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:27:12.378  INFO 4964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:27:12.442  INFO 4964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:27:12.643  INFO 4964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:27:12.686  INFO 4964 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:27:12.817  INFO 4964 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:27:12.905  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:27:13.199  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:27:13.213  INFO 4964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:27:13.404  INFO 4964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:27:13.467  WARN 4964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:27:13.871  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.101 seconds (JVM running for 3.59)
+2023-02-01 17:32:15.642  INFO 4964 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:32:15.657  INFO 4964 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 17:32:15.675  INFO 4964 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 17:32:15.790  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 4964 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:32:15.790  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:32:16.252  INFO 4964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:32:16.253  INFO 4964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:32:16.324  INFO 4964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:32:16.395  INFO 4964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:32:16.402  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 17:32:16.599  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 17:32:16.600  INFO 4964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:32:16.609  INFO 4964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:32:16.638  WARN 4964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:32:16.899  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 1.174 seconds (JVM running for 306.62)
+2023-02-01 17:32:34.450  INFO 4964 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:32:34.457  INFO 4964 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-01 17:32:34.484  INFO 4964 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-01 17:32:34.594  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 4964 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:32:34.595  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:32:34.997  INFO 4964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:32:34.998  INFO 4964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:32:35.042  INFO 4964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:32:35.103  INFO 4964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:32:35.115  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-01 17:32:35.314  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-01 17:32:35.315  INFO 4964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:32:35.328  INFO 4964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:32:35.356  WARN 4964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:32:35.483  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.925 seconds (JVM running for 325.204)
+2023-02-01 17:32:46.960  INFO 4964 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:32:46.966  INFO 4964 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-01 17:32:46.978  INFO 4964 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-01 17:32:47.055  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 4964 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:32:47.056  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:32:47.404  INFO 4964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:32:47.405  INFO 4964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:32:47.424  INFO 4964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:32:47.459  INFO 4964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:32:47.466  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-01 17:32:47.672  INFO 4964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-01 17:32:47.673  INFO 4964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:32:47.679  INFO 4964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:32:47.697  WARN 4964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:32:47.794  INFO 4964 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 0.769 seconds (JVM running for 337.516)
+2023-02-01 17:33:25.133  INFO 2120 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 2120 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:33:25.135  INFO 2120 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:33:26.479  INFO 2120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:33:26.480  INFO 2120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:33:26.584  INFO 2120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:33:26.851  INFO 2120 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:33:26.899  INFO 2120 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:33:27.045  INFO 2120 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:33:27.138  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:33:27.562  INFO 2120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:33:27.578  INFO 2120 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:33:27.758  INFO 2120 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:33:27.835  WARN 2120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:33:28.327  INFO 2120 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.675 seconds (JVM running for 4.225)
+2023-02-01 17:36:05.648  INFO 2120 --- [http-nio-2006-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 17:38:19.020  INFO 11488 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 11488 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:38:19.022  INFO 11488 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:38:20.379  INFO 11488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:38:20.380  INFO 11488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:38:20.463  INFO 11488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:38:20.714  INFO 11488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:38:20.772  INFO 11488 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:38:20.915  INFO 11488 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:38:20.997  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:38:21.384  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:38:21.400  INFO 11488 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:38:21.631  INFO 11488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:38:21.701  WARN 11488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:38:22.157  INFO 11488 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.547 seconds (JVM running for 4.09)
+2023-02-01 17:39:42.434  INFO 14468 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 14468 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:39:42.436  INFO 14468 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:39:44.037  INFO 14468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:39:44.037  INFO 14468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:39:44.155  INFO 14468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:39:44.466  INFO 14468 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:39:44.522  INFO 14468 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:39:44.745  INFO 14468 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:39:44.887  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:39:45.272  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:39:45.292  INFO 14468 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:39:45.500  INFO 14468 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:39:45.591  WARN 14468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:39:45.988  WARN 14468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 17:39:46.015  WARN 14468 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 17:39:46.030  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 17:39:46.187  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 17:39:46.191  INFO 14468 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:39:46.228 ERROR 14468 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 17:39:52.581  INFO 22524 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 22524 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:39:52.586  INFO 22524 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:39:54.173  INFO 22524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:39:54.174  INFO 22524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:39:54.246  INFO 22524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:39:54.473  INFO 22524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:39:54.520  INFO 22524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:39:54.656  INFO 22524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:39:54.758  INFO 22524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:39:55.111  INFO 22524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:39:55.132  INFO 22524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:39:55.361  INFO 22524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:39:55.428  WARN 22524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:39:55.908  INFO 22524 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.831 seconds (JVM running for 4.638)
+2023-02-01 17:40:33.054  INFO 22524 --- [http-nio-2006-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-01 17:41:33.608  INFO 18020 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 18020 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:41:33.610  INFO 18020 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:41:34.982  INFO 18020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:41:34.983  INFO 18020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:41:35.076  INFO 18020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:41:35.314  INFO 18020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:41:35.361  INFO 18020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:41:35.524  INFO 18020 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:41:35.625  INFO 18020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:41:35.959  INFO 18020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:41:35.977  INFO 18020 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:41:36.189  INFO 18020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:41:36.260  WARN 18020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:41:36.689  WARN 18020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-01 17:41:36.721  WARN 18020 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 2006 is already in use
+2023-02-01 17:41:36.734  INFO 18020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 17:41:36.751  INFO 18020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 17:41:36.756  INFO 18020 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:41:36.795 ERROR 18020 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2006 or configure this application to listen on another port.
+
+2023-02-01 17:41:44.941  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 18888 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:41:44.943  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:41:46.390  INFO 18888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:41:46.390  INFO 18888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:41:46.496  INFO 18888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:41:46.817  INFO 18888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:41:46.889  INFO 18888 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-01 17:41:47.103  INFO 18888 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-01 17:41:47.222  INFO 18888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01 17:41:47.577  INFO 18888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01 17:41:47.606  INFO 18888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:41:47.872  INFO 18888 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:41:47.933  WARN 18888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:41:48.414  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 3.932 seconds (JVM running for 4.534)
+2023-02-01 17:42:02.897  INFO 18888 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-01 17:42:02.933  INFO 18888 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01 17:42:03.035  INFO 18888 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01 17:42:03.190  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Starting OnlinePlantApp1Application using Java 17.0.5 on inlen8520069492 with PID 18888 (C:\MySpringBootWork\OnlinePlantApp1\bin\main started by ymuthike in C:\MySpringBootWork\OnlinePlantApp1)
+2023-02-01 17:42:03.191  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-02-01 17:42:03.667  INFO 18888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-01 17:42:03.667  INFO 18888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-01 17:42:03.703  INFO 18888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-01 17:42:03.753  INFO 18888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01 17:42:03.765  INFO 18888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-01 17:42:04.035  INFO 18888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-01 17:42:04.036  INFO 18888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-01 17:42:04.048  INFO 18888 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01 17:42:04.084  WARN 18888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01 17:42:04.282  INFO 18888 --- [restartedMain] c.c.o.OnlinePlantApp1Application         : Started OnlinePlantApp1Application in 1.144 seconds (JVM running for 20.402)
